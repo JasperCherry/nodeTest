@@ -1,27 +1,24 @@
 {
-  "name": "node-js-getting-started",
-  "version": "0.0.1",
-  "description": "A sample Node.js app using Express 4",
-  "engines": {
-    "node": "4.4.7"
-  },
+  "name": "testapp",
+  "version": "1.0.0",
+  "description": "test",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
   "dependencies": {
-    "ejs": "2.4.1",
-    "express": "4.13.3",
-    "socket.io": "1.2.0 extraneous"
+    "socket.io": "^1.2.0",
+    "express": "^4.10.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/JasperCherry/nodeTest.git"
+    "url": "git+https://github.com/JasperCherry/nodeTest.git"
   },
-  "keywords": [
-    "node",
-    "heroku",
-    "express"
-  ],
-  "license": "MIT"
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JasperCherry/nodeTest/issues"
+  },
+  "homepage": "https://github.com/JasperCherry/nodeTest#readme"
 }
